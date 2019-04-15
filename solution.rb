@@ -16,7 +16,7 @@ class Deck
   end
 
     def choose_card
-        @cards.delete_at(rand((@cards.length) - 1))
+        @cards.delete_at(rand(@cards.length - 1)
     end
 end
 
