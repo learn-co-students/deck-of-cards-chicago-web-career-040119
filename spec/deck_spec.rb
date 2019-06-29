@@ -1,4 +1,5 @@
 # spec/deck_spec.rb
+require 'pry'
 
 require_relative "../solution.rb"
 
@@ -11,6 +12,7 @@ describe "Deck" do
 
   it "initializes with 52 cards" do
     expect(test_deck.cards.length).to eq(52)
+    #binding.pry
   end
 
   it "#choose_card removes a card from the deck" do
